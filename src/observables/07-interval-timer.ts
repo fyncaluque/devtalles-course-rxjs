@@ -12,7 +12,7 @@ const interval$ = interval(1000);
 
 const now = new Date();
 now.setSeconds(now.getSeconds() + 5);
-const timer$ = timer(now); // Se ejecuta en 5s, emite valor cada 1s
+const timer$ = timer(now); // Se ejecuta pasados 5 segundos desde la fecha, emite valor cada 1s
 
 console.log("Start");
 // interval$.subscribe(observer);

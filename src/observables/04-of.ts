@@ -8,7 +8,7 @@ const observer: Observer<any> = {
 
 /**
  * *Of
- * Observable que emite valores de manera sync
+ * Observable que emite una lista valores de manera sync
  */
 const obs$ = of<number[]>(1, 2, 3, 4, 5);
 // const obs$ = of(1, 2, 3, 4, 5, ...[6, 7, 8]);

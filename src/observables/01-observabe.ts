@@ -16,7 +16,7 @@ const observable$ = new Observable<string>((subscriber) => {
 
   subscriber.complete(); // Termina de emitir
 
-  subscriber.next("Other message"); // Ya se emite el mensaje
+  subscriber.next("Other message"); // Ya no se emite el mensaje
 });
 
 // observable$.subscribe(resp=>{console.log(resp)})
